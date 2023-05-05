@@ -54,7 +54,7 @@ func main() {
 	hostname := os.Getenv("HOSTNAME")
 	msg := os.Getenv("MSG")
 	if msg == "" {
-		msg = "Hi from echo"
+		msg = "Hi from echo/simon"
 	}
 	rev := ""
 	if tmp := os.Getenv("K_REVISION"); tmp != "" {
